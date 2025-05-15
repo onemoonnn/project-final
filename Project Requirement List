@@ -1,0 +1,40 @@
+# Project Requirement List
+1) User CRUD Operations
+Create, Read, Update, and Delete user profiles
+Store: ID, name, and email for each user
+
+2) Command-Line Interface
+Numbered menu system with clear prompts
+Help messages for all commands
+
+3) Input Validation
+Email format verification (name@domain.com)
+Name validation (letters and spaces only)
+
+4) File Storage
+Automatic save/load from users.dat
+CSV export/import functionality
+
+5) Search Functionality
+Find users by name (partial match)
+Locate users by exact email
+
+6) Backup System
+Daily automatic backups
+Manual backup option via menu
+
+7) Activity Logging
+Record all operations with timestamps
+Store logs in audit.log
+
+8) Reports
+Show total user count
+Display last backup time
+
+9) Error Handling
+Friendly messages for invalid inputs
+File operation error recovery
+
+10) Cross-Platform Support
+Run on Windows/macOS/Linux
+Use only standard Java libraries
