@@ -28,3 +28,6 @@ This project will:
 3.⁠ ⁠Check for correct email/name formats
 4.⁠ ⁠Make backups to protect data
 5.⁠ ⁠Work on any computer
+
+You can view a 7-slide presentation explaining the project here:  
+*[View Presentation on Canva](https://www.canva.com/design/DAGnf0SBQbk/xxYsVezd9E8qCQdbOzG6LQ/view?utm_content=DAGnf0SBQbk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8cde8923e9)*
