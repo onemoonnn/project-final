@@ -1,0 +1,21 @@
+The project implements a user management system using Java that stores data in files. 
+It allows creating, reading, updating and deleting user records through a simple text menu.
+All user data gets saved automatically to binary files so nothing is lost when closing the program.
+For storage it uses an ArrayList to keep users in memory while running and saves everything to a users.dat file when changes happen. 
+Backups are made in the backups folder with timestamps to prevent data loss. 
+An audit log tracks all actions with timestamps. Searching can find users by name or email.
+Everything works offline without databases or internet. The menu makes it easy to use while the code structure shows clear Java file handling. 
+Validation ensures clean data while backups and logs add reliability. 
+The whole system runs on any computer with Java installed.
+This project was one of my first experiences building something real with Java, and it came with many struggles. 
+At first, I felt completely lost—I didn’t know how to save data to files, how to validate emails properly, or even how to structure the menu system. 
+There were nights I stayed up debugging why the program crashed when loading files, or why the search function wouldn’t find users.
+But through trial and error, I learned. I figured out how serialization works to save objects to files. 
+I mastered regex patterns to validate emails and names. 
+I discovered how ArrayLists grow dynamically, and how to handle errors gracefully so the program wouldn’t just freeze. 
+The backup system was especially tough—I had to learn timestamps, file paths, and how to organize versioned copies.
+Most importantly, I learned perseverance. When the audit log kept overwriting itself, I read documentation until I fixed it. 
+When the CSV exports looked messy, I rewrote the formatting logic three times. 
+This project taught me that coding isn’t about knowing everything upfront, but about solving one small problem at a time.
+Now, seeing it all work—the CRUD operations, the error validations, the automatic backups—I feel proud of how far I’ve come. 
+The confusion I felt at the start has turned into understanding, and that’s the real victory.
